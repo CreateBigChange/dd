@@ -1,0 +1,390 @@
+<html>
+    <head>  
+        <title></title>  
+        <meta charset="utf-8" />
+
+
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" href="http://dreamsky.github.io/main/blog/common/init.css">
+        <script src="js/cufon-yui.js" type="text/javascript"></script>
+        <script src="js/ChunkFive_400.font.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            Cufon.replace('h1',{ textShadow: '1px 1px #000'});
+            Cufon.replace('h2',{ textShadow: '1px 1px #000'});
+            Cufon.replace('.footer',{ textShadow: '1px 1px #000'});
+            Cufon.replace('.pxs_loading',{ textShadow: '1px 1px #000'});
+        </script>
+
+    </head>  
+    <body style="background:url(back.jpg) no-repeat ;background-position:30% 15%; ">  
+	       <audio autoplay="autopaly">
+			 <source src="w.mp3" type="audio/mp3" />
+		  </audio> 
+
+          <canvas id="c" style="margin-top:25%;"></canvas>
+	    <div style="position: absolute;left: 30px;top: 20px;"><a href="./two.html"><h1>HAPPY EVERYDAY</h1> <span class="label label-success"></span></a></div>
+        <script>  
+            var b = document.body;  
+            var c = document.getElementsByTagName('canvas')[0];  
+            var a = c.getContext('2d');  
+            document.body.clientWidth;   
+        </script>  
+        <script>  
+             with(m=Math)C=cos,S=sin,P=pow,R=random;c.width=c.height=f=500;h=-250;function p(a,b,c){if(c>60)return[S(a*7)*(13+5/(.2+P(b*4,4)))-S(b)*50,b*f+50,625+C(a*7)*(13+5/(.2+P(b*4,4)))+b*400,a*1-b/2,a];A=a*2-1;B=b*2-1;if(A*A+B*B<1){if(c>37){n=(j=c&1)?6:4;o=.5/(a+.01)+C(b*125)*3-a*300;w=b*h;return[o*C(n)+w*S(n)+j*610-390,o*S(n)-w*C(n)+550-j*350,1180+C(B+A)*99-j*300,.4-a*.1+P(1-B*B,-h*6)*.15-a*b*.4+C(a+b)/5+P(C((o*(a+1)+(B>0?w:-w))/25),30)*.1*(1-B*B),o/1e3+.7-o*w*3e-6]}if(c>32){c=c*1.16-.15;o=a*45-20;w=b*b*h;z=o*S(c)+w*C(c)+620;return[o*C(c)-w*S(c),28+C(B*.5)*99-b*b*b*60-z/2-h,z,(b*b*.3+P((1-(A*A)),7)*.15+.3)*b,b*.7]}o=A*(2-b)*(80-c*2);w=99-C(A)*120-C(b)*(-h-c*4.9)+C(P(1-b,7))*50+c*2;z=o*S(c)+w*C(c)+700;return[o*C(c)-w*S(c),B*99-C(P(b, 7))*50-c/3-z/1.35+450,z,(1-b/1.2)*.9+a*.1, P((1-b),20)/4+.05]}}setInterval('for(i=0;i<1e4;i++)if(s=p(R(),R(),i%46/.74)){z=s[2];x=~~(s[0]*f/z-h);y=~~(s[1]*f/z-h);if(!m[q=y*f+x]|m[q]>z)m[q]=z,a.fillStyle="rgb("+~(s[3]*h)+","+~(s[4]*h)+","+~(s[3]*s[3]*-80)+")",a.fillRect(x,y,1,1)}',500)
+       </script>
+    <DIV style="margin-top:400px;">
+            <div class="wrapper">
+            <a href="./two.html"><h1>Entere NEXT</h1>(点击进入)</a>
+        </div>
+
+        <div id="pxs_container" class="pxs_container">
+            <div class="pxs_bg">
+                <div class="pxs_bg1"></div>
+                <div class="pxs_bg2"></div>
+                <div class="pxs_bg3"></div>
+            </div>
+            <div class="pxs_loading">Loading images...</div>
+            <div class="pxs_slider_wrapper">
+                <ul class="pxs_slider">
+                    <li><img src="images/1.jpg" alt="First Image"  style="width:500px;" /></li>
+                    <li><img src="images/2.jpg" alt="Second Image" style="width:500px;" /></li>
+                    <li><img src="images/3.jpg" alt="Third Image" style="width:500px;" /></li>
+                    <li><img src="images/4.jpg" alt="Forth Image" style="width:500px;" /></li>
+                    <li><img src="images/5.jpg" alt="Fifth Image" style="width:500px;" /></li>
+                    <li><img src="images/6.jpg" alt="Sixth Image" style="width:500px;" /></li>
+                    <li><img src="images/7.jpg" alt="Seven Image" style="width:500px;" /></li>
+                    <li><img src="images/8.jpg" alt="Eight Image" style="width:500px;" /></li>
+                    <li><img src="images/9.jpg" alt="Nine Image" style="width:500px;" /></li>
+                    <li><img src="images/10.jpg" alt="Ten Image" style="width:500px;" /></li>
+                </ul>
+                <div class="pxs_navigation">
+                    <span class="pxs_next"></span>
+                    <span class="pxs_prev"></span>
+                </div>
+                <ul class="pxs_thumbnails">
+                    <li><img src="images/thumbs/1.jpg" alt="First Image" /></li>
+                    <li><img src="images/thumbs/2.jpg" alt="Second Image" /></li>
+                    <li><img src="images/thumbs/3.jpg" alt="Third Image" /></li>
+                    <li><img src="images/thumbs/4.jpg" alt="Forth Image" /></li>
+                    <li><img src="images/thumbs/5.jpg" alt="Fifth Image" /></li>
+                    <li><img src="images/thumbs/6.jpg" alt="Sixth Image" /></li>
+                    <li><img src="images/thumbs/5.jpg" alt="Sixth Image" /></li>
+                    <li><img src="images/thumbs/4.jpg" alt="Sixth Image" /></li>
+                    <li><img src="images/thumbs/3.jpg" alt="Sixth Image" /></li>
+                    <li><img src="images/thumbs/2.jpg" alt="Sixth Image" /></li>
+                </ul>
+            </div>
+        </div>
+    <div>
+
+
+
+<!------ 底部的js------>
+
+        <!-- The JavaScript -->
+
+
+        <script type="text/javascript" src="http://cdn.staticfile.org/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+       
+        <script type="text/javascript">
+            
+            function change(){
+                $(".pxs_next").click()    
+            }
+            
+
+            setInterval("change()",9000);
+        </script>>
+
+        <script type="text/javascript">
+            (function($) {
+                $.fn.parallaxSlider = function(options) {
+                    var opts = $.extend({}, $.fn.parallaxSlider.defaults, options);
+                    return this.each(function() {
+                        var $pxs_container  = $(this),
+                        o               = $.meta ? $.extend({}, opts, $pxs_container.data()) : opts;
+                        
+                        //the main slider
+                        var $pxs_slider     = $('.pxs_slider',$pxs_container),
+                        //the elements in the slider
+                        $elems          = $pxs_slider.children(),
+                        //total number of elements
+                        total_elems     = $elems.length,
+                        //the navigation buttons
+                        $pxs_next       = $('.pxs_next',$pxs_container),
+                        $pxs_prev       = $('.pxs_prev',$pxs_container),
+                        //the bg images
+                        $pxs_bg1        = $('.pxs_bg1',$pxs_container),
+                        $pxs_bg2        = $('.pxs_bg2',$pxs_container),
+                        $pxs_bg3        = $('.pxs_bg3',$pxs_container),
+                        //current image
+                        current         = 0,
+                        //the thumbs container
+                        $pxs_thumbnails = $('.pxs_thumbnails',$pxs_container),
+                        //the thumbs
+                        $thumbs         = $pxs_thumbnails.children(),
+                        //the interval for the autoplay mode
+                        slideshow,
+                        //the loading image
+                        $pxs_loading    = $('.pxs_loading',$pxs_container),
+                        $pxs_slider_wrapper = $('.pxs_slider_wrapper',$pxs_container);
+                            
+                        //first preload all the images
+                        var loaded      = 0,
+                        $images     = $pxs_slider_wrapper.find('img');
+                            
+                        $images.each(function(){
+                            var $img    = $(this);
+                            $('<img/>').load(function(){
+                                ++loaded;
+                                if(loaded   == total_elems*2){
+                                    $pxs_loading.hide();
+                                    $pxs_slider_wrapper.show();
+                                        
+                                    //one images width (assuming all images have the same sizes)
+                                    var one_image_w     = $pxs_slider.find('img:first').width();
+                            
+                                    /*
+                                    need to set width of the slider,
+                                    of each one of its elements, and of the
+                                    navigation buttons
+                                     */
+                                    setWidths($pxs_slider,
+                                    $elems,
+                                    total_elems,
+                                    $pxs_bg1,
+                                    $pxs_bg2,
+                                    $pxs_bg3,
+                                    one_image_w,
+                                    $pxs_next,
+                                    $pxs_prev);
+                            
+                                    /*
+                                        set the width of the thumbs
+                                        and spread them evenly
+                                     */
+                                    $pxs_thumbnails.css({
+                                        'width'         : one_image_w + 'px',
+                                        'margin-left'   : -one_image_w/2 + 'px'
+                                    });
+                                    var spaces  = one_image_w/(total_elems+1);
+                                    $thumbs.each(function(i){
+                                        var $this   = $(this);
+                                        var left    = spaces*(i+1) - $this.width()/2;
+                                        $this.css('left',left+'px');
+                                            
+                                        if(o.thumbRotation){
+                                            var angle   = Math.floor(Math.random()*41)-20;
+                                            $this.css({
+                                                '-moz-transform'    : 'rotate('+ angle +'deg)',
+                                                '-webkit-transform' : 'rotate('+ angle +'deg)',
+                                                'transform'         : 'rotate('+ angle +'deg)'
+                                            });
+                                        }
+                                        //hovering the thumbs animates them up and down
+                                        $this.bind('mouseenter',function(){
+                                            $(this).stop().animate({top:'-10px'},100);
+                                        }).bind('mouseleave',function(){
+                                            $(this).stop().animate({top:'0px'},100);
+                                        });
+                                    });
+                                        
+                                    //make the first thumb be selected
+                                    highlight($thumbs.eq(0));
+                                        
+                                    //slide when clicking the navigation buttons
+                                    $pxs_next.bind('click',function(){
+                                        ++current;
+                                        if(current >= total_elems)
+                                            if(o.circular)
+                                                current = 0;
+                                        else{
+                                            --current;
+                                            return false;
+                                        }
+                                        highlight($thumbs.eq(current));
+                                        slide(current,
+                                        $pxs_slider,
+                                        $pxs_bg3,
+                                        $pxs_bg2,
+                                        $pxs_bg1,
+                                        o.speed,
+                                        o.easing,
+                                        o.easingBg);
+                                    });
+                                    $pxs_prev.bind('click',function(){
+                                        --current;
+                                        if(current < 0)
+                                            if(o.circular)
+                                                current = total_elems - 1;
+                                        else{
+                                            ++current;
+                                            return false;
+                                        }
+                                        highlight($thumbs.eq(current));
+                                        slide(current,
+                                        $pxs_slider,
+                                        $pxs_bg3,
+                                        $pxs_bg2,
+                                        $pxs_bg1,
+                                        o.speed,
+                                        o.easing,
+                                        o.easingBg);
+                                    });
+                            
+                                    /*
+                                    clicking a thumb will slide to the respective image
+                                     */
+                                    $thumbs.bind('click',function(){
+                                        var $thumb  = $(this);
+                                        highlight($thumb);
+                                        //if autoplay interrupt when user clicks
+                                        if(o.auto)
+                                            clearInterval(slideshow);
+                                        current     = $thumb.index();
+                                        slide(current,
+                                        $pxs_slider,
+                                        $pxs_bg3,
+                                        $pxs_bg2,
+                                        $pxs_bg1,
+                                        o.speed,
+                                        o.easing,
+                                        o.easingBg);
+                                    });
+                            
+                                
+                            
+                                    /*
+                                    activate the autoplay mode if
+                                    that option was specified
+                                     */
+                                    if(o.auto != 0){
+                                        o.circular  = true;
+                                        slideshow   = setInterval(function(){
+                                            $pxs_next.trigger('click');
+                                        },o.auto);
+                                    }
+                            
+                                    /*
+                                    when resizing the window,
+                                    we need to recalculate the widths of the
+                                    slider elements, based on the new windows width.
+                                    we need to slide again to the current one,
+                                    since the left of the slider is no longer correct
+                                     */
+                                    $(window).resize(function(){
+                                        w_w = $(window).width();
+                                        setWidths($pxs_slider,$elems,total_elems,$pxs_bg1,$pxs_bg2,$pxs_bg3,one_image_w,$pxs_next,$pxs_prev);
+                                        slide(current,
+                                        $pxs_slider,
+                                        $pxs_bg3,
+                                        $pxs_bg2,
+                                        $pxs_bg1,
+                                        1,
+                                        o.easing,
+                                        o.easingBg);
+                                    });
+
+                                }
+                            }).error(function(){
+                                alert('here')
+                            }).attr('src',$img.attr('src'));
+                        });
+                            
+                            
+                            
+                    });
+                };
+                
+                //the current windows width
+                var w_w             = $(window).width();
+                
+                var slide           = function(current,
+                $pxs_slider,
+                $pxs_bg3,
+                $pxs_bg2,
+                $pxs_bg1,
+                speed,
+                easing,
+                easingBg){
+                    var slide_to    = parseInt(-w_w * current);
+                    $pxs_slider.stop().animate({
+                        left    : slide_to + 'px'
+                    },speed, easing);
+                    $pxs_bg3.stop().animate({
+                        left    : slide_to/2 + 'px'
+                    },speed, easingBg);
+                    $pxs_bg2.stop().animate({
+                        left    : slide_to/4 + 'px'
+                    },speed, easingBg);
+                    $pxs_bg1.stop().animate({
+                        left    : slide_to/8 + 'px'
+                    },speed, easingBg);
+                }
+                
+                var highlight       = function($elem){
+                    $elem.siblings().removeClass('selected');
+                    $elem.addClass('selected');
+                }
+                
+                var setWidths       = function($pxs_slider,
+                $elems,
+                total_elems,
+                $pxs_bg1,
+                $pxs_bg2,
+                $pxs_bg3,
+                one_image_w,
+                $pxs_next,
+                $pxs_prev){
+                    /*
+                    the width of the slider is the windows width
+                    times the total number of elements in the slider
+                     */
+                    var pxs_slider_w    = w_w * total_elems;
+                    $pxs_slider.width(pxs_slider_w + 'px');
+                    //each element will have a width = windows width
+                    $elems.width(w_w + 'px');
+                    /*
+                    we also set the width of each bg image div.
+                    The value is the same calculated for the pxs_slider
+                     */
+                    $pxs_bg1.width(pxs_slider_w + 'px');
+                    $pxs_bg2.width(pxs_slider_w + 'px');
+                    $pxs_bg3.width(pxs_slider_w + 'px');
+                    
+                    /*
+                    both the right and left of the
+                    navigation next and previous buttons will be:
+                    windowWidth/2 - imgWidth/2 + some margin (not to touch the image borders)
+                     */
+                    var position_nav    = w_w/2 - one_image_w/2 + 3;
+                    $pxs_next.css('right', position_nav + 'px');
+                    $pxs_prev.css('left', position_nav + 'px');
+                }
+                
+                $.fn.parallaxSlider.defaults = {
+                    auto            : 0,    //how many seconds to periodically slide the content.
+                                            //If set to 0 then autoplay is turned off.
+                    speed           : 1000,//speed of each slide animation
+                    easing          : 'jswing',//easing effect for the slide animation
+                    easingBg        : 'jswing',//easing effect for the background animation
+                    circular        : true,//circular slider
+                    thumbRotation   : true//the thumbs will be randomly rotated
+                };
+                //easeInOutExpo,easeInBack
+            })(jQuery);
+        </script>
+
+        <script type="text/javascript">
+            $(function() {
+                var $pxs_container  = $('#pxs_container');
+                $pxs_container.parallaxSlider();
+            });
+        </script>
+        <script src="http://dreamsky.github.io/main/blog/common/init.js"></script>
+
+<!------ 底部实现图片轮播的js------>
+    </body>
+</html>  
